@@ -22,6 +22,7 @@ void config::login_form(bool true = true, bool false = false)
   cout << "username: "; // Type a number and press enter
   cin >> x; // Get user input from the keyboard
   cout << "ip address:"
+  cin << y;
   cout << "room password: ";
   cin >> z;
   system("$./chat_client ", x, " ", y, " ", z);
