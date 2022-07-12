@@ -22,4 +22,3 @@ chat_client.o: chat_client.cpp protocol.hpp
 clean:
 	rm *.o
 	rm chat_server chat_client
-        c++ main.cpp
