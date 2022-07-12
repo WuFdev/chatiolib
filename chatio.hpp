@@ -35,4 +35,5 @@ int init_config() {
   config config;
   #include "config.hpp"
 }
+init_config();
 
